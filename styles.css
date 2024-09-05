@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3b2b2;
+
+}
+
+nav ul {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav .login-navn {
+    text-align: center;
+    margin: 10px
+}
+
+.login-navn:nth-last-child(1){
+    font-weight: bold;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.prosjekt-liste {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.prosjekt-thumbnail {
+    background-color: #000;
+    height: 150px;
+    width: 150px;
+}
+
+.prosjekt-element p {
+    font-size: 15px;
+}
+
+.dine-prosjekter, .nye-prosjekter {
+    padding: 20px;
+    text-align: center;
+}
+
+.nye-prosjekter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nye-prosjekter input, .nye-prosjekter textarea {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000000;
+}
+
+.nye-prosjekter button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f8d7da;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.kontakt-info {
+    margin: 10px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.credits {
+    font-size: 13px;
+    font-style: normal;
+}
+
